@@ -4,6 +4,12 @@ A command-line Python tool to fetch and filter research papers from PubMed based
 
 ---
 
+## 📡 Published Package
+
+The tool is available on TestPyPI:
+
+🔗 [pubmed-scraper-shyamsai @ TestPyPI](https://test.pypi.org/project/pubmed-scraper-shyamsai/)
+
 ## 🚀 Features
 
 - 🔎 Query PubMed using its full query syntax.
