@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pubmed-scraper-shyamsai"
+version = "0.1.1"
+description = "A CLI tool to fetch PubMed papers with non-academic pharma/biotech affiliations"
+authors = ["Shyam Sai Manohar <munna06112003@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "pubmed_scraper_shyamsai" }]
+keywords = ["pubmed", "scraper", "pharma", "biotech", "cli", "python"]
+homepage = "https://github.com/shyamsai0611/pubmed-scraper-shyamsai"
+repository = "https://github.com/shyamsai0611/pubmed-scraper-shyamsai"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.32.4"
+
+[tool.poetry.scripts]
+get-papers-list = "pubmed_scraper_shyamsai.cli:main"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
