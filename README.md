@@ -21,6 +21,10 @@ A command-line Python tool to fetch and filter research papers from PubMed based
 ```
 pip install -i https://test.pypi.org/simple/ pubmed-scraper-shyamsai
 ```
+or
+```
+pip install --extra-index-url https://test.pypi.org/simple/ pubmed-scraper-shyamsai
+```
 
 ## ➤ From source (local development):
 
